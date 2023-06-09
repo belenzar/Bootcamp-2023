@@ -97,7 +97,7 @@ ol {
   width: 8rem;
   height: 1.8rem;
   border-radius: 1rem;
-  margin: auto;
+  margin: 2rem auto;
   background-color: rgb(139, 6, 6);
   color: white;
   text-decoration: none;
@@ -145,19 +145,8 @@ footer > p {
 }
 
 @media only screen and (min-width: 1000px) {
-  #about {
-    max-width: 80rem;
-  }
-
   img {
     width: 50%;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 2rem;
-    align-items: center;
   }
 
   #video {
@@ -185,7 +174,7 @@ footer > p {
   .videoFrame3 {
     grid-area: videoFrame3;
   }
-  
+
   .videoFrame4 {
     grid-area: videoFrame4;
   }
