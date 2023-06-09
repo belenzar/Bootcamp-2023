@@ -115,7 +115,7 @@ ol {
 
 #videos {
   max-width: 50rem;
-  margin: auto;
+  margin: 1.5rem auto;
 }
 
 .video {
@@ -127,27 +127,21 @@ ol {
 
 iframe {
   margin: 1.5rem;
+  padding: 0.5rem;
 }
 
 footer {
   max-width: 100%;
   background-color: rgb(139, 6, 6);
-  height: 2.5rem;
+  height: 3rem;
 }
 
-footer p {
+footer > p {
   color: white;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   font-family: "Bebas Neue", sans-serif;
   font-size: 1.6rem;
   padding: 0.3rem;
-}
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: black;
-    background-image: none;
-  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -166,6 +160,10 @@ footer p {
     align-items: center;
   }
 
+  #video {
+    max-width: 50%;
+  }
+
   .video {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -179,12 +177,15 @@ footer p {
   .videoFrame1 {
     grid-area: videoFrame1;
   }
+
   .videoFrame2 {
     grid-area: videoFrame2;
   }
+
   .videoFrame3 {
     grid-area: videoFrame3;
   }
+  
   .videoFrame4 {
     grid-area: videoFrame4;
   }
